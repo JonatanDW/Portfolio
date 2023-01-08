@@ -47,20 +47,27 @@
 <main class="pt-3 bg-light min-vh-100 mb-4">
     <div class="container">
         <div class="row">
-            <form action="post-demo.php" method="post" class="form-control bg-info bg-opacity-50">
+            <form action="post-demo.php" method="post" class="form-control bg-info bg-opacity-50 border-dark border-3">
                 <fieldset>
                     <legend>Contacteer me:</legend>
                     <div class="mt-3">
-                        <label for="mail address" class="form-label">Uw email adres:</label>
-                        <input type="email" class="form-control" id="mail address" placeholder="john.doe@example.com">
+                        <label for="name" class="form-label">Uw voornaam:</label>
+                        <input type="text" class="form-control border-1 border-dark" id="name" name="Voornaam" placeholder="John">
                     </div>
                     <div class="mt-3">
-                        <label for="name" class="form-label">Uw naam:</label>
-                        <input type="text" class="form-control" id="name" placeholder="John Doe">
+                        <label for="family-name" class="form-label">Uw familie naam:</label>
+                        <input type="text" class="form-control border-1 border-dark" id="family-name" name="Familienaam" placeholder="Doe">
+                    </div>
+                    <div class="mt-3">
+                    <label for="mail address" class="form-label">Uw email adres:</label>
+                    <input type="email" class="form-control border-1 border-dark" id="mail address" name="E-mail" placeholder="john.doe@example.com">
                     </div>
                     <div class="mt-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Uw bericht voor mij:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control border-1 border-dark" id="exampleFormControlTextarea1" name="Vraag" rows="3"></textarea>
+                    </div>
+                    <div class="mt-3 col-2 offset-10">
+                        <button type="submit" class="form-control border-1 border-dark">Verstuur</button>
                     </div>
                 </fieldset>
             </form>
