@@ -1,3 +1,12 @@
 a.link-light.text-decoration-none:hover {
     color: #4d5154!important;
 }
+
+.dropdown-item.active, .dropdown-item:active {
+    color: black;
+    background: none;
+}
+
+.dropdown-item {
+    color: #1a1e21;
+}
