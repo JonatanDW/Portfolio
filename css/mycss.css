@@ -10,3 +10,8 @@ a.link-light.text-decoration-none:hover {
 .dropdown-item {
     color: #1a1e21;
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
